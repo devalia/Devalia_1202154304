@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3A8DB"
+    tools:context="android.devalia.com.DEVALIA_1202154304_MODUL1.MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/resto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="@string/judul"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/resto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/porsi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:text="@string/hasilResto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/eatbus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/abnormal"
+        android:layout_alignBottom="@+id/abnormal"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:layout_toEndOf="@+id/abnormal"
+        android:layout_toRightOf="@+id/abnormal"
+        android:onClick="pilihEatbus"
+        android:text="@string/iniEatbus" />
+
+    <Button
+        android:id="@+id/abnormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="130dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginStart="52dp"
+        android:onClick="pilihAbnormal"
+        android:text="@string/iniAbnormal" />
+
+    <EditText
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abnormal"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/abnormal"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="Ketik nasi uduk..." />
+
+    <EditText
+        android:id="@+id/porsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/menu"
+        android:layout_alignRight="@+id/menu"
+        android:layout_below="@+id/menu"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Ketik berapa porsi..."/>
+
+</RelativeLayout>

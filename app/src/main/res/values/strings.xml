@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DEVALIA_1202154304_MODUL1</string>
+    <string name="button_1">eatbus</string>
+    <string name="button_2">abnormal</string>
+    <string name="activity2_main">Second Activity</string>
+    <string name="text_header1">Makan Malam di Eatbus</string>
+    <string name="text_header2">Makan Malam di Abnormal</string>
+    <string name="editText_main2">Ketik berapa porsi...</string>
+    <string name="inputMakan">Menu makanan...</string>
+    <string name="hasilResto">dengan Milea</string>
+    <string name="iniAbnormal">abnormal</string>
+    <string name="iniEatbus">eatbus</string>
+    <string name="judul">Makan Malam</string>
+</resources>
